@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Becky Beauchamp's Portfolio</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js" type="text/javascript"></script>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="script.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Overlock' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="top-nav">
+    <ul class="icon-list">
+      <li class="icons pull-left"><a class="home-logo" href="#">BB</a></li>
+      <li class="icons"><a href="https://github.com/beckybeauchamp1"><i class="fa fa-github-square"></i></a></li>
+      <li class="icons"><a href="https://www.linkedin.com/in/beckybeauchamp"><i class="fa fa-linkedin-square"></i></a></li>
+      <li class="icons"><a href="https://www.facebook.com/becky.beauchamp.71"><i class="fa fa-facebook-official"></i></a></li>
+    </ul>
+  </div>
+  <div class="jumbotron">
+    <div class="container heading">
+      <h1>Becky Beauchamp</h1>
+      <p><small>Software Developer</small></p>
+      <nav>
+        <ul>
+          <li><a class="btn btn-default btn-md toscroll" href="#about" role="button">ABOUT</a></li>
+          <li><a class="btn btn-default btn-md toscroll" href="#projects" role="button">PROJECTS</a></li>
+          <li><a class="btn btn-default btn-md toscroll" href="#contact" role="button">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="container about">
+    <h2 class="sub-headers" id="about">ABOUT</h2>
+    <ul>
+      <li class="about-subheaders btn">Personal</li>
+      <li class="about-subheaders btn">Skills</li>
+      <li class="about-subheaders btn">Experience</li>
+    </ul>
+    <hr>
+    <div class="row">
+      <div class="col-md-7">
+        <div class="Personal about-info">
+          <h3>About Me:</h3>
+          <p>I am currently working for General Assembly as a Developer in Residence</p>
+          <p>I love technology and am passionate about programming. As part of the instructional team at GA, I am responsible for
+          preparing and delivering classes on fundamentals of programming and web development. I am excited about the opportunity to
+        continuing learning while sharing my knowledge with junior developers and helping to grow the DC tech community.</p>
+          <h3>Personal Interests:</h3>
+          <p>Passion for technology, artifical intelligence, football, running, and broadway musicals</p>
+          </div>
+          <div class="Skills about-info">
+            <h3>Skills:</h3>
+            <p><strong>Languages: </strong>Ruby, JavaScript, HTML5, CSS3</p>
+            <p><strong>Libraries/Frameworks: </strong> Rails, Node.js, Express.js, Backbone.js, jQuery, Ajax, JSON, Bootstrap</p>
+            <p><strong>Version Control: </strong> Git, Github</p>
+            <p><strong>Methodologies: </strong> MVC, OOP, REST, Agile</p>
+            <p><strong>Databases: </strong> PostgreSQL, MongoDB</p>
+            <p><strong>Management: </strong>Client/Vendor Relationships, Colleague Management, CRM Tools</p>
+          </div>
+          <div class="Experience about-info">
+            <h3>Recent Experience:</h3>
+            <h4>Developer In Residence, <em>General Assembly</em></h4>
+            <h4 class="company-and-dates">Jan 2016 - Present</h4>
+            <p>Responsibilities include preparing and delivering classes on fundamentals of web development, as well as writing exercises, quizzes, homework assignments.</p>
+            <p>Collaborate and Help Develop an Internal Rails Application to Track Student Attendance and Progress</p>
+            <h4>Junior Developer/Student, <em>General Assembly</em></h4>
+            <h4 class="company-and-dates">Oct 2015 - Jan 2016</h4>
+            <p>Designing, Developing, Testing, and Deploying web applications using JavaScript, Node.js, Express.js, Angular.js, Ruby, Rails, PostgreSQL, MongoDB, jQuery, HTML5, and CSS.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <img id="me" class="pull-right" src="images/becky.jpg">
+        </div>
+      </div>
+    </div>
+    <div class="container projects">
+      <div class="row">
+        <h2 class="sub-headers" id="projects">PROJECTS</h2>
+        <hr>
+        <div class="col-md-6">
+          <h3>Memory Game</h3>
+          <div class="thumbnail">
+            <img src="images/halloween.jpg">
+            <div class="caption">
+              <p>Halloween Themed Memory Game</p>
+              <p><small>Technologies: JavaScript, HTML5, CSS3</small></p>
+              <p>
+                <a class="project-btn btn btn-default" href="https://github.com/beckybeauchamp1/Memory-Game">Github</a>
+                <a class="project-btn btn btn-default" href="http://beckybeauchamp1.github.io/Memory-Game/">Heroku</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h3>Yoga Retreat</h3>
+          <div class="thumbnail">
+            <img src="images/yoga.jpg">
+            <div class="caption">
+              <p>Create or Find Yoga Retreats</p>
+              <p><small>Technologies: Ruby, Rails, PostgreSQL, Active Record, Bootstrap</small></p>
+              <p>
+                <a class="project-btn btn btn-default" href="https://github.com/beckybeauchamp1/project2">Github</a>
+                <a class="project-btn btn btn-default" href="https://beauchamp-yoga-retreat-app.herokuapp.com/">Heroku</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h3>At Now</h3>
+          <div class="thumbnail">
+            <img src="images/AtNow.jpg">
+            <div class="caption">
+              <p>Single Page App to See Whats Open Now</p>
+              <p><small>Technologies: Nodejs, Expressjs, MongoDB, Bootstrap</small></p>
+              <p>
+                <a class="project-btn btn btn-default" href="https://github.com/beckybeauchamp1/AtNow">Github</a>
+                <a class="project-btn btn btn-default" href="https://atnow.herokuapp.com">Heroku</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h3>College Events</h3>
+          <div class="thumbnail">
+            <img src="images/Project4.png">
+            <div class="caption">
+              <p>College Students can see and create events on their Campus</p>
+              <p><small>Technologies: Rails, JavaScript, Backbone.js, PostgreSQL, Bootstrap</small></p>
+              <p>
+                <a class="project-btn btn btn-default" href="https://github.com/beckybeauchamp1/project-4_rails_API">Github</a>
+                <a class="project-btn btn btn-default" href="https://campus-events-app.herokuapp.com/">Heroku</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container contact-div">
+      <div class="row">
+        <h2 class="sub-headers" id="contact">CONTACT</h2>
+        <hr>
+        <div class="col-md-12 contact-links">
+          <ul class="footer-list">
+            <li class="footer"><button class="btn btn-primary footer-button" href="https://github.com/beckybeauchamp1">Github</button></li>
+            <li class="footer"><button class="btn btn-primary footer-button" href="https://www.linkedin.com/in/beckybeauchamp">LinkedIn</li>
+            <li class="footer"><button class="btn btn-primary footer-button" href="https://www.facebook.com/becky.beauchamp.71">Email</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+  </html>
