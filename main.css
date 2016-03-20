@@ -236,18 +236,17 @@ ul{
 .ga{
   margin-right: 20px;
 }
-.footer-list button{
+.footer-button{
   display: inline;
   color: black;
-  width: 15%;
+  width: 20%;
   font-weight: bolder;
-  height: 100px;
   font-size: 25px;
 }
-.footer-list button:hover{
+.footer-list a:hover{
   background-color: lemonchiffon;
   color: black;
 }
 .contact-links{
-  margin-top: 100px;
+  margin-top: 80px;
 }
