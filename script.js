@@ -4,11 +4,17 @@ $(document).ready(function(){
     showProjectDescription: function(div1, div2){
       $(div1).mouseover(function(){
         var self = this;
-        $(self).find(div2).slideDown(350);
+        var imgCap = $(self).find(".img-thumbnails")
+        console.log(imgCap)
+        $(self).find(div2).slideDown(500);
+        imgCap.css("-webkit-filter", "blur(20px)");
       });
       $(div1).mouseleave(function(){
         var self = this;
-        $(self).find(div2).slideUp(350);
+        var imgCap = $(self).find(".img-thumbnails")
+        console.log(imgCap)
+        $(self).find(div2).slideUp(500);
+        imgCap.css("-webkit-filter", "blur(0px)");
       });
     }
   };
@@ -29,7 +35,7 @@ $(document).ready(function(){
     var hash = url.substring(url.indexOf("#")+1);
     $('html, body').animate({
         scrollTop: $('#'+hash).offset().top
-    }, 500);
+    }, 1000);
     return false;
 });
 
