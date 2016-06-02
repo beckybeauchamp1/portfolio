@@ -5,15 +5,13 @@ $(document).ready(function(){
       $(div1).mouseover(function(){
         var self = this;
         var imgCap = $(self).find(".img-thumbnails")
-        console.log(imgCap)
-        $(self).find(div2).slideDown(500);
         imgCap.css("-webkit-filter", "blur(20px)");
+        $(self).find(div2).fadeIn(300);
       });
       $(div1).mouseleave(function(){
         var self = this;
         var imgCap = $(self).find(".img-thumbnails")
-        console.log(imgCap)
-        $(self).find(div2).slideUp(500);
+        $(self).find(div2).fadeOut(400);
         imgCap.css("-webkit-filter", "blur(0px)");
       });
     }
